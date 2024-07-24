@@ -1,0 +1,241 @@
+#orderProcessingTemplate{
+  height:auto;
+  width: 50rem;
+  margin-top: 50px;
+  padding: 20px;
+}
+
+#orderCompletedTemplate{
+  height:auto;
+  width: 50rem;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+#orderCancelledTemplate{
+  height:auto;
+  width: 50rem;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+#orderShippedTemplate{
+  height:auto;
+  width: 50rem;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+#orderRefundedTemplate{
+  height:auto;
+  width: 50rem;
+  margin-top: 20px;
+  padding: 20px;
+}
+.variable{
+  width: 305px;
+  margin-top: 10px;
+  height: 25px;
+  margin-left: 10px;
+}
+
+
+#addvariables{
+  margin-top: 10px;
+}  
+
+#var{
+  display: inline;
+  padding-right: 43px;
+}
+
+.templateCard{
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.chooseTriggersCard{
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  padding: 25px;
+  width: 38.5%;
+  height: 200px;
+}
+
+
+#saveTriggers{
+  margin-top: 3rem;
+  color:white;
+  background-color: #4fc3f7;
+  border:2px #4fc3f7 solid;
+  font-weight: bold;
+  font-size: 14px;
+  width: 11rem;
+  height: 2rem;
+  border-radius: 6px;
+  cursor: pointer;
+
+}
+.triggersOption{
+  padding: 3px;
+}
+
+#tellephantImage{
+  width: 20rem;
+  margin: 7px;
+}
+
+.tellephant_header{
+  background-color: white;
+  margin-top: -3px;
+  margin-left: -15px;
+  width: auto;
+  height: 3rem;
+}
+.tellephant_logout{
+  margin: -19px;
+  float: right;
+  margin-inline: 12px;
+}
+
+#tellephant_logout_button{
+  color:white;
+  background-color: #4fc3f7;
+  border:2px #4fc3f7 solid;
+  font-weight: bold;
+  font-size: 14px;
+  width: 7rem;
+  height: 2rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#tellephant_login_button{
+  color:#4fc3f7;
+  background-color: white;
+  font-weight: bold;
+  font-size: 14px;
+  border:none;
+  height: 2rem;
+  width: 7rem;
+  border:2px #4fc3f7 solid;
+  cursor: pointer;
+  border-radius: 4px;
+  margin:19px;
+}
+
+#tellephant_save_button{
+  color:white;
+  background-color: #4fc3f7;
+  border:2px #4fc3f7 solid;
+  font-weight: bold;
+  font-size: 14px;
+  width: 7rem;
+  height: 2rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.templates{
+margin-top: 10px;
+  /* margin-left: 191px; */
+}
+
+.tellephant_login{
+  margin-left: 200px;
+}
+.tellephant_sidebar{
+  background-color: white;
+  width: 12rem;
+  height: 89rem;
+  float: left;
+  margin-left: -15px;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  margin-top:-56px;
+  text-align: left;
+  font-family: inherit;
+}
+
+.tellephant_sidebar a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  color: black;
+  display: block;
+  margin-top: 19px;
+  text-align: left;
+}
+
+.tellephant_main {
+  margin-left: 180px; /* Same as the width of the sidenav */
+  /* font-size: 28px; Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+#triggerResults{
+  background-color: aliceblue;
+}
+
+#login_form{
+  width: 50rem;
+  height: auto;
+  padding: 28px;
+  margin-top: 20px;
+}
+
+.savedTriggers{
+  margin-left: 530px;
+  margin-top: -197px;
+  background-color: white;
+  height: 249px;
+  padding: 15px;
+  float: left;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+
+.savedTiggers__table {
+  border-collapse: collapse;
+  width: 505px;
+}
+
+.savedTiggers__table th, .savedTiggers__table td {
+  text-align: left;
+  padding: 8px;
+}
+
+.savedTiggers__table tr:nth-child(even){background-color: #f2f2f2}
+
+.savedTiggers__table th {
+  background-color: #4fc3f7;;
+  color: white;
+}
+
+.triggerStatus{
+  color:#4fc3f7;
+  background-color: white;
+  font-weight: bold;
+  font-size: 14px;
+  border:none;  
+  width: auto;
+  border:2px #4fc3f7 solid;
+  cursor: pointer;
+  border-radius: 4px;
+
+}
+
+.success{
+  color:green;
+  font-size: 13.5px;
+}
+
+.error{
+  color:red;
+  font-size: 13.5px;
+}
